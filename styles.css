@@ -3,6 +3,7 @@ body {
   background-color: #ffe4e1; /* Soft pink background */
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
+  margin: 1rem;
 }
 
 /* Story Title Styling */
