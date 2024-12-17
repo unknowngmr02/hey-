@@ -9,12 +9,12 @@
 </head>
 <body>
     <div class="falling-petals"></div>
-    <audio id="bg-music" autoplay loop>
+    <audio id="bg-music" loop>
         <source src="bg.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
-      <button class="play-btn" onclick="playMusic()">M</button>
-
+     <button class="play-pause-btn" onclick="toggleMusic()">Play</button>
+  
   <div class="container my-5">
     <h1 class="text-center mb-4">Untitled</h1>
 
@@ -149,8 +149,17 @@
 
     const music = document.getElementById('bg-music');
 
-function playMusic() {
-  music.play();
+    const music = document.getElementById('bg-music');
+
+function toggleMusic() {
+  const button = document.querySelector('.play-pause-btn');
+  if (music.paused) {
+    music.play();
+    button.textContent = 'Pause'; // Change text to "Pause"
+  } else {
+    music.pause();
+    button.textContent = 'Play...  '; // Change text to "Play"
+  }
 }
   </script>
   
