@@ -150,10 +150,10 @@ p {
   font-size: 1.2rem;
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 15px;
   cursor: pointer;
-  margin-top: 90vh;
-  margin-left: 85%;
+  margin-top: 80vh;
+  margin-left: 65%;
   transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 0 10px rgba(255, 182, 193, 0.7); /* Light pink glow */
 }
